@@ -3,4 +3,4 @@ Given I navigate to the SauceDemo page
 
 Scenario: Login as a good user
 Given I navigate to the SauceDemo page
-When I login as a user with username `standard_user` and password `secret_sauce`
+When I login as a user with username `${swagGoodUserName}` and password `${swagPassword}`
