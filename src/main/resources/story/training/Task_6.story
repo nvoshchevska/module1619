@@ -4,7 +4,7 @@ Examples:
 |${swagGoodUserName}|
 |${swagSlowUserName}|
 
-Scenario: Log in 
+Scenario: Log in
 Given I navigate to the SauceDemo page
 When I login as a user with username `<userName>` and password `${swagPassword}`
 Then number of elements found by `className(inventory_item)` is = `6`
@@ -44,4 +44,3 @@ When I login as a user with username `${swagGoodUserName}` and password `${swagP
 And I click on element located by `className(bm-burger-button)`
 And I click on element located by `linkText(reset_sidebar_link)`
 And I click on element located by `linkText(logout_sidebar_link)`
-

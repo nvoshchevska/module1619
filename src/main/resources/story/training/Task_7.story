@@ -26,6 +26,3 @@ Then the page has the relative URL '/checkout-complete.html'
 Given I initialize SCENARIO variable `finalText` with value `Thank you for your order!`
 And I initialize SCENARIO variable `baselineText` with value `#{loadResource(/data/message.txt)}`
 Then `${finalText}` is = `${baselineText}`
-
-
-

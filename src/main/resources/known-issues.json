@@ -1,25 +1,25 @@
 {
- 
-	"BUG-001": {
-	    "type": "Internal",
-	    "assertionPattern": ".*Expected: \\<https:\\//www.saucedemo.com\\/inventory.html\\> Actual: \\<https:\\//www.saucedemo.com\\/\\>.*",
-		"storyPattern": "Task_5",
-	    "scenarioPattern": "Test Know Issue feature",
-	    "stepPattern": "Then the page has the relative URL '\\/inventory.html'",
-		"failScenarioFast":true,
-		"failStoryFast":false,
-	    "description": "User will be unlocked soon"
-	    },
- 	 
-	  "BUG-002": {
-			    "type": "Internal",
-			    "assertionPattern": ".*Expected: number of elements is a value equal to \\<5\\> Actual: \\<6\\>.*",
-				"storyPattern": "Task_5",
-			    "scenarioPattern": "Test Know Issue feature Bug2",
-				/*"stepPattern": "Then number of elements found by `className(inventory_item)` is = `5`.+",*/
-			    "failScenarioFast":true,
-				"failStoryFast":false,
-			    "description": "Scenario to be fixed"
-			    }
-			
+
+    "BUG-001": {
+        "type": "Internal",
+        "assertionPattern": ".*Expected: \\<https:\\//www.saucedemo.com\\/inventory.html\\> Actual: \\<https:\\//www.saucedemo.com\\/\\>.*",
+        "storyPattern": "Task_5",
+        "scenarioPattern": "Test Know Issue feature",
+        "stepPattern": "Then the page has the relative URL '\\/inventory.html'",
+        "failScenarioFast":true,
+        "failStoryFast":false,
+        "description": "User will be unlocked soon"
+        },
+
+      "BUG-002": {
+                "type": "Internal",
+                "assertionPattern": ".*Expected: number of elements is a value equal to \\<5\\> Actual: \\<6\\>.*",
+                "storyPattern": "Task_5",
+                "scenarioPattern": "Test Know Issue feature Bug2",
+                /*"stepPattern": "Then number of elements found by `className(inventory_item)` is = `5`.+",*/
+                "failScenarioFast":true,
+                "failStoryFast":false,
+                "description": "Scenario to be fixed"
+                }
+
 }
